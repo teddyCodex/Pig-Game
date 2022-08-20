@@ -67,7 +67,7 @@ holdBtn.addEventListener("click", function () {
   scores[activePlayer] += roundScore;
   document.getElementById(`score--${activePlayer}`).innerHTML =
     scores[activePlayer];
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     gameActive = false;
     document
       .querySelector(".player--" + activePlayer)
